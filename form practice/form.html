@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+  <!-- 
+      Method: 
+       - POST
+       - GET
+       - PUT // Update
+       - DELETE
+      ACTION
+      example: <form method="POST" action="https://google.com/backend"></form>
+    -->
+  <!-- Task 1 - Create a form with following fields -->
+  <!-- Task 2 - Add css to the form -->
+  <form>
+    <div class="first">
+      <label class="second">Name</label>
+      <input type="text" />
+    </div>
+
+    <div class="first">
+      <label class="second">Age</label>
+      <input type="number" />
+    </div>
+
+    <div class="first">
+      <label class="second">DOB</label>
+      <input type="date" placeholder="dd/mm/yyyy" />
+    </div>
+
+    <div class="first">
+      <h4 class="second">Gender
+      </h4>
+
+      <div class="third">
+        <input type="radio" name="Gender" id="male" value="male" />
+        <label class="second" for="male">Male</label>
+      </div>
+      <div class="third">
+        <input type="radio" name="Gender" id="female" value="female" />
+        <label class="second" for="female">Female</label>
+      </div>
+    </div>
+    <div class="first">
+      <h4 class="second">Marital Status
+      </h4>
+      <select name="marital_status" id="marital_status">
+        <option>Married</option>
+        <option>Unmarried</option>
+        <option>etc</option>
+      </select>
+    </div>
+    <div class="first">
+      <h4 class="second">Pet
+      </h4>
+
+      <div>
+        <input type="checkbox" name="Pet" id="Cat" value="cat" />
+        <label for="Cat">Cat</label>
+      </div>
+      <div>
+        <input type="checkbox" name="Dog" id="Dog" Value="Dog" />
+        <label for="Dog">Dog</label>
+      </div>
+      <div>
+        <input type="checkbox" name="Rabbit" id="Rabbit" Value="Rabbit" />
+        <label for="Rabbit">Rabbit</label>
+      </div>
+    </div>
+    <div class="first">
+      <label class="second" for="Bio">Bio</label>
+      <textarea id="Bio" name="Bio">TEXT HERE</textarea>
+
+    </div>
+    <input type="range" />
+    <div class="forth">
+      <button class="Save_btn" for="save">Save</button>
+      <button class="Reset_btn" for="Reset">Reset</button>
+    </div>
+    </div>
+  </form>
+</body>
+
+</html>

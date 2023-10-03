@@ -1,0 +1,25 @@
+body {
+  background: #272626;
+}
+h1 {
+  color: white;
+  /* text-decoration: underline; */
+  width: 12%;
+  margin: 3%;
+  border-bottom: 3px solid #ffffff;
+}
+input {
+  background-color: #2f2e2e;
+  height: 20px;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+  padding-left: 1%;
+  width: 25%;
+  border-radius: 40px;
+  border: 1px solid rgba(0, 0, 0, 0);
+  appearance: none;
+  outline: none;
+}
+input:focus {
+  border: 1px solid aqua;
+}
