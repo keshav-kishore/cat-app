@@ -1,0 +1,7 @@
+1. Heading -> "THe Biggest Startup Event Of The Year"
+2. Button -> "Know more"
+
+----- CSS ----
+All items are aligned to center
+Button color to be hexcode for orange
+Background image to be used "header.jpg"
